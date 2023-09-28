@@ -1,0 +1,20 @@
+[
+  {
+    "isAdmin": false,
+    "name": "Juan",
+    "surName": "Pérez",
+    "email": "juan.perez@example.com",
+    "address": "Calle Falsa 123",
+    "password": "MiContraseñaSegura123",
+    "telephone": "555123456"
+  },
+  {
+    "isAdmin": true,
+    "name": "Javier",
+    "surName": "Gonzalez",
+    "email": "javi@example.com",
+    "address": "Calle Falsa 123",
+    "password": "MiContrase",
+    "telephone": "555123456"
+  }
+]
