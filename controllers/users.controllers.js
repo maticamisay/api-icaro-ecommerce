@@ -1,4 +1,4 @@
-const User = require("../models/usuarios");
+const User = require("../exModels/usuarios");
 
 exports.findAllUsers = async (req, res) => {
   // await User.sync({ force: true }); // ¡Cuidado! ¡Esto reescribe la tabla!

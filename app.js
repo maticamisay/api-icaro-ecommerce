@@ -10,7 +10,7 @@ app.use(morgan("dev"));
 // MIDDLEWARE PARA PROCESAR JSON
 app.use(express.json());
 
-app.use("/productos", require("./routes/products.routes"));
+app.use("/api/productos", require("./routes/products.routes"));
 app.use("/usuarios", require("./routes/users.routes"));
 
 app.get("/api/productos", (req, res) => {
